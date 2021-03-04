@@ -1,11 +1,4 @@
-# # from tkinter import scrolledtext
-# def display_full_name():
-#     messagebox.showinfo("null-tokenner v2.0 by dream", token.get())  
-# lbl = Label(window, text="Привет пострижися")  
-# lbl.grid(column=1, row=0)
-# btn1 = Button(window,width=20, text='Сменить статус ВК', command=status_change)41574433764164cc88a3b70fb3f4e7e60ef739e3680aa863a1b02b06c3b2d464f770675aa67077e0d2f11  
-# btn1.grid(column=1, row=2)</> <a href="st-guru.pl">*тык*</a>
-# logging.basicConfig(filename='chats_ids.log', level=logging.INFO)
+
 from tkinter import *
 from tkinter.ttk import Radiobutton  
 from tkinter import messagebox
@@ -17,29 +10,11 @@ import requests
 import vk
 import webbrowser
 import random
-# import pyautogui
-# a = int(input("Кол-во нажатий: ") )
-# num = 0
-                   
-# while num <= a:
-#     pyautogui.keyDown('Q')
-#     print(num)
-#     num += 1
-# import os
-# from selenium import webdriver
-# import requests
-# cert =('cert','key')
-# password = "qwerty123"
-# auths ={'passwordField':password}
-# URL = "htтps://tender.sk.kz/OA_HTML/AppsLogin"
-# s = requests.Session()
-# r = s.get(URL, cert=cert, headers=headers, verify=False)
-# auth_page = r.url
-# r = s.post(auth_page, headers=headers, data=data)
+
 
 def howto():
     webbrowser.open('http://st-guru.pl/changelog/main_py.html', new=2)
-    # webbrowser.open('javascript:alert(1)', new=2) 
+  
 
 def clicked():  
     fn = selected.get()
